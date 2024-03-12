@@ -541,9 +541,10 @@ body {
   white-space: nowrap;
 }
 .text-button-wJN {
+  text-decoration: none;
   margin: 0.9rem 0;
   box-sizing: border-box;
-  padding: 0.2rem 0rem 0.2rem 0.8rem;
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
   height: calc(100% - 1.8rem);
   font-size: 1.4rem;
   font-weight: 700;
@@ -554,6 +555,14 @@ body {
   border-radius: 0.8rem;
   flex-shrink: 0;
 }
+.del_b{
+  text-decoration: none;
+}
+.del_b:hover{
+  background-color: #ccf5f5;
+  border-radius: 1rem;
+}
+
 .frame-2596-oLa {
   box-sizing: border-box;
   padding: 2rem 1.6rem 2rem 2rem;
@@ -566,7 +575,7 @@ body {
   background-color: #ffffff;
   flex-shrink: 0;
 }
-.checkbox-8Nr {
+/* .checkbox-8Nr {
   margin-right: 4rem;
   width: 2rem;
   height: 2rem;
@@ -574,7 +583,34 @@ body {
   vertical-align: top;
   border-radius: 0.6rem;
   flex-shrink: 0;
+  accent-color: #14abb5;
+} */
+.checkbox-8Nr {
+  margin-right: 4rem;
+  -webkit-appearance: none; /* Remove default appearance */
+  -moz-appearance: none;
+  appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid #999;
+  border-radius: 0.6rem;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
 }
+.checkbox-8Nr:checked::before {
+  content: '\2714'; /* check mark symbol Unicode */
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+}
+
+.checkbox-8Nr:checked {
+  background-color: #14abb5;  /* Change background color when checked */
+}
+
+
 .frame-164-Tvv {
   margin-right: 4rem;
   width: 11.6rem;
@@ -654,7 +690,12 @@ body {
   flex-shrink: 0;
 }
 .price-rtW {
-  margin: 6rem 1.6rem 6rem 0rem;
+  /* margin: 6rem 1.6rem 6rem 0rem;
+  height: calc(100% - 12rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0; */
+  margin: 6rem 4rem 6rem 0rem;
   height: calc(100% - 12rem);
   display: flex;
   align-items: center;
@@ -926,6 +967,7 @@ body {
   vertical-align: top;
   border-radius: 10rem;
   flex-shrink: 0;
+  background-size: 3.2rem 3.2rem;
   background-image: url("../assets/button-ypS.png");
 }
 .frame-2623-XRY {
@@ -1131,6 +1173,8 @@ body {
   flex-shrink: 0;
 }
 .frame-2598-4Si {
+  justify-content: space-between;
+  align-items: center;
   width: 34rem;
   row-gap: 1rem;
   display: flex;
@@ -1138,6 +1182,8 @@ body {
   flex-shrink: 0;
 }
 .frame-320-cDL {
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1164,7 +1210,8 @@ body {
   flex-shrink: 0;
 }
 .frame-323-LHk {
-  margin-right: 0.2rem;
+  justify-content: space-between;
+  align-items: center;
   width: calc(100% - 0.2rem);
   display: flex;
   align-items: center;
@@ -1191,6 +1238,8 @@ body {
   flex-shrink: 0;
 }
 .frame-324-AXg {
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1217,6 +1266,7 @@ body {
   flex-shrink: 0;
 }
 .button-mnN {
+  text-decoration: none;
   box-sizing: border-box;
   padding: 1.6rem 0rem 1.6rem 3rem;
   width: 19.6rem;

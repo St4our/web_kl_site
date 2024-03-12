@@ -601,6 +601,7 @@ body {
   flex-shrink: 0;
 }
 .frame-2626-4AA {
+  text-decoration: none;
   box-sizing: border-box;
   padding: 1rem 1rem 1.6rem 1.8rem;
   height: 100%;
@@ -1034,6 +1035,9 @@ body {
   flex-shrink: 0;
 }
 .frame-2598-DH8 {
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
   margin-bottom: 2rem;
   width: 100%;
   display: flex;
@@ -1049,8 +1053,10 @@ body {
   flex-shrink: 0;
 }
 .frame-320-Cer {
+  justify-content: space-between;
+  align-items: center;
   margin: 0rem 2.3rem 1rem 0rem;
-  width: calc(100% - 2.3rem);
+  width: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -1076,8 +1082,10 @@ body {
   flex-shrink: 0;
 }
 .frame-323-AtW {
+  justify-content: space-between;
+  align-items: center;
   margin-right: 2.5rem;
-  width: calc(100% - 2.5rem);
+  width: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -1103,6 +1111,8 @@ body {
   flex-shrink: 0;
 }
 .frame-325-Xkz {
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 1rem;
   width: 100%;
   display: flex;
@@ -1130,8 +1140,10 @@ body {
   flex-shrink: 0;
 }
 .frame-324-yFc {
-  margin-right: 2rem;
-  width: calc(100% - 2rem);
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 100% ;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -1157,9 +1169,10 @@ body {
   flex-shrink: 0;
 }
 .button-M9g {
+  text-decoration: none;
   margin: 0rem 1.6rem 2rem 0rem;
   box-sizing: border-box;
-  padding: 1.6rem 0.9rem 1.6rem 4rem;
+  padding: 1.6rem 1.6rem 1.6rem 1.6rem;
   overflow: hidden;
   position: relative;
   font-size: 1.8rem;
