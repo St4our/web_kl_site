@@ -16,8 +16,8 @@ body {
   width: 192rem;
 } */
 html {
-  width: auto;
-  /* font-size:62.5%; */
+  /* width: auto; */
+  font-size:25%;
 	/* font-size:62.5%; */
 }
 @media (max-width: 4500px) {
@@ -30,6 +30,7 @@ html {
     font-size:60%;
   }
 }
+
 @media (max-width: 1900px) {
   html {
     font-size:40%;
@@ -40,6 +41,7 @@ html {
     font-size:25%;
   }
 }
+
 * {
 	margin: 0;
 	padding: 0;
