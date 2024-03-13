@@ -18,12 +18,15 @@ body {
   overflow-x: hidden;
   
 }
+
+
 .desktop-layout-Jqk {
   width: 100%; 
   height: 1920px;
   position: static;
   overflow: hidden;
   background-color: #ffffff;
+  display: inline-block;
 }
 
 

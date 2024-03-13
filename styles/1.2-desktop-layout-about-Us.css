@@ -16,7 +16,28 @@ body {
   width: 192rem;
 } */
 html {
-	font-size:62.5%;
+  font-size:62.5%;
+	/* font-size:62.5%; */
+}
+@media (max-width: 4500px) {
+  html {
+    font-size:75%;
+  }
+}
+@media (max-width: 2000px) {
+  html {
+    font-size:65%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size:40%;
+  }
+}
+@media (max-width: 300px) {
+  html {
+    font-size:25%;
+  }
 }
 * {
 	margin: 0;
@@ -35,12 +56,14 @@ body {
 }
 .desktop-layout-dtA {
   width: 100%;
-  overflow: hidden;
+  /* height: 1920px; */
+  /* overflow: hidden; */
   position: relative;
   align-items: center;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   background-color: #ffffff;
+  display: inline-block;
 }
 .auto-group-fcaa-iPp {
   width: 100%;
