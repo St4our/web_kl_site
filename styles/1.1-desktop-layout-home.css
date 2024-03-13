@@ -1,5 +1,6 @@
 
 html {
+  width: auto;
 	/* font-size:62.5%; */
 }
 @media (max-width: 4500px) {
@@ -12,9 +13,9 @@ html {
     font-size:65%;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 490px) {
   html {
-    font-size:40%;
+    font-size:42.5%;
   }
 }
 @media (max-width: 300px) {

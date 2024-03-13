@@ -16,6 +16,7 @@ body {
   width: 192rem;
 } */
 html {
+  width: auto;
   /* font-size:62.5%; */
 	/* font-size:62.5%; */
 }
@@ -26,12 +27,11 @@ html {
 }
 @media (max-width: 2000px) {
   html {
-    font-size:65%;
+    font-size:60%;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 490px) {
   html {
-    /* width: 40%; */
     font-size:40%;
   }
 }
