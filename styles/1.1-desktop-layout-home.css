@@ -420,7 +420,7 @@ body {
   flex-direction: column; */
   box-sizing: border-box;
   padding: 0.6rem 15.8rem 6rem 16rem;
-  width: 192rem;
+  width: 192rem; 
   height: 261.3rem;
   position: absolute;
   left: 0;
@@ -428,6 +428,10 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
+  /* top: 13.5rem;
+  max-width: 1310px;
+  margin: 0 auto;
+  width: auto; */
   
 }
 .auto-group-exoc-286 {
