@@ -1,6 +1,6 @@
-html {
+/* html {
 	font-size:62.5%;
-}
+} */
 /* html {
 	font-size:62.5%;
 }
@@ -3159,7 +3159,7 @@ body {
 .header-primary-JfY {
   box-sizing: border-box;
   padding: 1.2rem 16rem;
-  width: 100%;
+  width: 100% !important;
   height: 7rem;
   position: absolute;
   left: 0;

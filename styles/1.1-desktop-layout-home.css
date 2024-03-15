@@ -41,13 +41,36 @@ body {
 
 
 .desktop-layout-Jqk {
-  width: 100%; 
+  width: 100% !important; 
+  /* font-size:62.5%; */
   height: 1920px;
   position: static;
   overflow: hidden;
   background-color: #ffffff;
   display: inline-block;
 }
+/* @media (max-width: 4500px) {
+  .desktop-layout-Jqk  {
+    width: 75% !important;
+  }
+}
+@media (max-width: 2100px) {
+  .desktop-layout-Jqk  {
+    
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 1900px) {
+  .desktop-layout-Jqk  {
+    width: 40% !important;
+  }
+}
+@media (max-width: 300px) {
+  .desktop-layout-Jqk  {
+    width: 25% !important;
+  }
+} */
 
 
 
@@ -2306,5 +2329,31 @@ body {
   background-image: url('../image/basket/basket2.png');
   background-size: 4rem 4rem;
 }
+
+/* * {
+  width: 75% !important;
+  }
+@media (max-width: 4500px) {
+  * {
+    width: 75% !important;
+  }
+}
+@media (max-width: 2100px) {
+  * {
+    
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 1900px) {
+  * {
+    width: 90% !important;
+  }
+}
+@media (max-width: 300px) {
+  * {
+    width: 75% !important;
+  }
+} */
 
 
