@@ -1882,64 +1882,6 @@ input {
   padding-top: -1rem;
 }
 
-.in-basket{
-  /* margin: 0rem 1rem 1rem 0rem; */
-  background-image: url('../image/basket/basket.png');
-  background-size: 4rem 4rem;
-  position: inherit;
-  margin-bottom: -4rem;
-  margin-right: -15.9rem;
-  width: 4rem;
-  height: 4rem;
-  object-fit: contain;
-  vertical-align: top;
-  border-radius: 0.8rem;
-  flex-shrink: 0;
-  z-index: 1;
-}
-
-.in-basket2{
-  /* margin: 0rem 1rem 1rem 0rem; */
-  /* background-image: url('../image/basket/basket.png');
-  background-size: 4rem 4rem; */
-  position: inherit;
-  bottom: 0rem;
-  right: -8.9rem;
-  width: 4rem;
-  height: 4rem;
-  object-fit: contain;
-  vertical-align: top;
-  border-radius: 0.8rem;
-  flex-shrink: 0;
-  z-index: 1;
-}
-
-.in-basket3{
-  background-image: url('../image/basket/basket.png');
-  background-size: 4rem 4rem;
-  position: inherit;
-  bottom: 0rem;
-  right: -8.9rem;
-  width: 4rem;
-  height: 4rem;
-  object-fit: contain;
-  vertical-align: top;
-  border-radius: 0.8rem;
-  flex-shrink: 0;
-  z-index: 1;
-}
-
-.in-basket:hover, .in-basket3:hover{
-  background-image: url('../image/basket/basket2.png');
-  background-size: 4rem 4rem;
-}
-
-/* * {
-  margin: 0 auto !important;
-  padding: 0 !important;
-  left: auto !important;
-} */
-
 
 @media (max-width: 1370px) {
   .header-primary-JfY, .frame-2562-6Ce, .desktop-layout-dtA, .futer-622 {

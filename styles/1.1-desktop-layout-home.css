@@ -54,6 +54,10 @@ input {
     gap: 70px;
 }
 
+.desktop-layout-dtA {
+  gap: 30px !important;
+}
+
 
 
 
@@ -69,30 +73,6 @@ input {
   align-items: center;
   background-color: #f3f4f6;
 }
-.frame-2594-t3G {
-  margin-right: 38.15rem;
-  height: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.frame-2581-qUJ {
-  margin: 0rem 5.6rem 10.4rem 0rem;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.image-2-z6J {
-  margin-right: 1rem;
-  width: 4.6rem;
-  height: 4.6rem;
-  position: relative;
-  background-size: 136.915% 100%;
-  background-position: -0.7569rem 0;
-  background-image: url('REPLACE_IMAGE:ee2b50aa0a3148a7ba50f13bded550e94f277436');
-  border-radius: 100rem;
-  flex-shrink: 0;
-}
 .sermed-46A {
   font-size: 1.6rem;
   font-weight: 700;
@@ -102,26 +82,12 @@ input {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.frame-2593-PeE {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
 .auto-group-w7zv-xSS {
   box-sizing: border-box;
   padding-right: 3.95rem;
   height: 100%;
   display: flex;
   align-items: flex-start;
-  flex-shrink: 0;
-}
-.frame-2589-WD4 {
-  margin-right: 3.6rem;
-  width: 13.8rem;
-  row-gap: 1rem;
-  display: flex;
-  flex-direction: column;
   flex-shrink: 0;
 }
 
@@ -137,26 +103,7 @@ input {
   flex-shrink: 0;
 }
 
-.auto-group-rdya-quY {
-  margin-left: 0.1rem;
-  width: 9.1rem;
-  height: 5.4rem;
-  position: relative;
-  flex-shrink: 0;
-}
 
-.item--8kE {
-  text-decoration: none;
-  width: 100%;
-  text-align: left;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 1.375;
-  color: #4b5563;
-  font-family: PT Root UI, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
 .item--iCe {
   text-decoration: none;
   width: 100%;
@@ -195,17 +142,6 @@ input {
   flex-shrink: 0;
 }
 
-.item--Cn2 {
-  margin-bottom: 1rem;
-  width: 100%;
-  text-align: center;
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.375;
-  color: #18181b;
-  font-family: PT Root UI, 'Source Sans Pro';
-  white-space: nowrap;
-}
 
 .item--89t {
   margin-left: 0.7rem;
@@ -288,20 +224,6 @@ input {
 }
 
 
-
-.frame-2592-eZU {
-  margin-bottom: 8.4rem;
-  height: 6.6rem;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.frame-2587-ZgS {
-  margin-right: 4.4rem;
-  width: 24.1rem;
-  flex-shrink: 0;
-}
-
 .item-8-800-550-71-76-5ug {
   margin-bottom: 0.2rem;
   width: 100%;
@@ -325,11 +247,6 @@ input {
   color: #4b5563;
   font-family: PT Root UI, 'Source Sans Pro';
   white-space: nowrap;
-}
-.frame-2591-VCi {
-  width: 21.9rem;
-  height: 100%;
-  flex-shrink: 0;
 }
 .clinicasermedslpgmailcom-FSn {
   margin-bottom: 1rem;
@@ -428,13 +345,9 @@ input {
   
 }
 .auto-group-exoc-286 {
-  /* margin: 0rem 0.2rem 2.2rem 0rem; */
-  margin-bottom: 22px;
   width: 100%;
   height: 45vh;
   position: relative;
-  flex-shrink: 0;
-
 }
 .text-xGe {
   width: 22rem;
@@ -462,7 +375,7 @@ input {
 
 .image_4 {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   max-width: 100%;
   border-radius: 2rem;
@@ -470,11 +383,12 @@ input {
 }
 
 .frame-2669-XsU {
-  width: 70%;
-  height: 24vh;
   position: absolute;
+  top: 10%;
   left: 4%;
-  top: 9%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 .text-46i {
   font-size: 36px;
@@ -485,6 +399,7 @@ input {
 }
 
 .text-jCr {
+  width: 90%;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5454545455;
@@ -493,20 +408,20 @@ input {
 }
 
 .img2156-1-4F8 {
-  width: 600px;
-  height: 550px;
   position: absolute;
-  left: 950px;
-  top: 1px;
+  bottom: 0;
+  right: 7%;
+  max-height: 400px;
+  height: 90%;
+  width: auto;
   object-fit: cover;
-  vertical-align: top;
 }
 .group-40072-mfL {
   width: 13%;
   height: 11%;
   position: absolute;
-  left: 58%;
-  top: 39%;
+  left: 50%;
+  top: 38%;
 }
 .ellipse-90-Wcv {
   width: 102px;
@@ -531,11 +446,6 @@ input {
   font-family: PT Root UI, 'Source Sans Pro';
 }
 .text-kXG {
-  width: 152px;
-  height: 72px;
-  position: absolute;
-  left: 1409px;
-  top: 79px;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.3333333333;
@@ -546,34 +456,27 @@ input {
   width: 22px;
   height: 16px;
   position: absolute;
-  left: 1401px;
-  top: 60px;
+  left: -5%;
+  top: -29%;
   object-fit: contain;
   vertical-align: top;
 }
 .tab-vaA {
-  /* margin: 0rem 101.2rem 5.6rem 0rem; */
-  margin-right: 1012px;
-  margin-bottom: 56px;
-  height: 56px;
   display: flex;
   column-gap: 10px;
   align-items: center;
   flex-shrink: 0;
 }
 .button-Ear {
+  flex: 32%;
   box-sizing: border-box;
   padding-top: 16px;
   padding-bottom: 16px;
-  width: 290px;
-  overflow: hidden;
-  position: relative;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.3333333333;
   color: #4b5563;
   font-family: PT Root UI, 'Source Sans Pro';
-  white-space: nowrap;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -640,56 +543,37 @@ input {
 }
 
 .card-gbG {
-  margin-right: 2px;
-  margin-bottom: 60px;
-  margin-left: 1px;
-  width: calc(100% - 3px);
   align-items: center;
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
+  gap: 10px;
 }
 .frame-2552-oQz {
-  /* margin: 0rem 0rem 2rem 0.1rem; */
-  margin-bottom: 20px;
-  margin-left: 1px;
-  width: calc(100% - 1px);
-  height: 40px;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
 }
 .text-jZY {
-  margin-right: 1014px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1111111111;
   color: #111827;
   font-family: PT Root UI, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
 }
 .text-button-H5G {
-  margin-top: 8px;
-  margin-bottom: 8px;
-  width: 177px;
-  height: calc(100% - 16px);
-  position: relative;
-  border-radius: 8px;
-  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
 }
 .text-RhG {
-  width: 163px;
-  height: 18px;
-  position: absolute;
-  left: 8px;
-  top: 3px;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.2857142857;
   color: #14abb5;
   font-family: PT Root UI, 'Source Sans Pro';
-  white-space: nowrap;
 }
 .text-RhG:hover {
   /* background-color: #EDFBFB; */
@@ -699,30 +583,20 @@ input {
 }
 
 .icon-L3Y {
-  width: 75px;
-  height: 13px;
-  position: absolute;
-  left: 155px;
-  top: 5px;
+  width: 13px;
+  height: 11px;
   object-fit: contain;
-  vertical-align: top;
 }
 .auto-group-vzfl-FwC {
-  margin-right: 1px;
-  width: calc(100% - 1px);
-  height: 760px;
+  width: 100%;
   display: flex;
   align-items: center;
-  flex-shrink: 0;
+  gap: 7px;
 }
 .auto-group-ntbc-ycJ {
-  margin-right: 20px;
-  width: 1059px;
-  height: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
 }
 .auto-group-xage-j5g {
   margin-bottom: 20px;
@@ -732,42 +606,77 @@ input {
   align-items: center;
   flex-shrink: 0;
 }
-.frame-2496-5QS {
-  margin-right: 20px;
-  width: 654px;
+
+.frame-left {
+  width: 70%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.frame-right {
+  position: relative;
+  overflow-x: hidden;
+  width: 30%;
+  height: 60vh;
+  border-radius: 20px;
+}
+
+.frame-top {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.frame-bottom {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.frame-box {
+  width: 100%;
   height: 100%;
   position: relative;
-  overflow: hidden;
   background-color: #f9fafb;
   border-radius: 20px;
-  flex-shrink: 0;
+  overflow-x: hidden;
 }
-.close-up-of-medical-botox-injection-in-lips-facial-treatment-1-13C {
-  width: 654px;
-  height: 435px;
-  position: absolute;
-  left: 0;
-  top: -2px;
+.frame-img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   vertical-align: top;
+  background-size: 100%;
 }
-.text-6qL {
-  width: 245px;
-  height: 36px;
+
+.frame-top-left {
+  flex: 60%;
+}
+
+.frame-top-right {
+  flex: 40%;
+}
+
+.text {
+  width: 90%;
+  word-wrap: break-word;
   position: absolute;
-  left: 20px;
-  top: 20px;
-  font-size: 30px;
+  top: 4%;
+  left: 4%;
+  font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
   color: #374151;
   font-family: PT Root UI, 'Source Sans Pro';
-  white-space: nowrap;
 }
 .frame-2497-B66 {
-  width: 385px;
-  height: 100%;
-  position: relative;
   overflow: hidden;
   background-color: #f3f4f6;
   border-radius: 20px;
@@ -935,18 +844,25 @@ input {
   flex-shrink: 0;
 }
 .text-KYz {
-  margin-bottom: 20px;
-  width: 924px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1111111111;
   color: #111827;
   font-family: PT Root UI, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
 }
 
 /* 6 блок - товары косметики начало */
+.frame-2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.frame:hover {
+  box-shadow: 0 0 10px 0 gray;
+}
+
 .frame-2546-Mka {
   width: 100%;
   height: 371px;
@@ -954,19 +870,30 @@ input {
   align-items: center;
   flex-shrink: 0;
 }
-.frame-2438-Jvi {
-  box-sizing: border-box;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  padding-left: 10px;
-  width: 250px;
-  height: 100%;
+.frame {
+  flex: 32%;
+  position: relative;
   align-items: center;
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 10px;
-  flex-shrink: 0;
+  padding: 10px;
+
+  transition: all 400ms ease;
+}
+
+.frame-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.frame-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .pict-xVU {
@@ -1230,9 +1157,6 @@ input {
 .pict-fzn {
   width: 230px;
   height: 230px;
-  position: absolute;
-  left: 0;
-  top: 0;
   object-fit: contain;
   vertical-align: top;
   border-radius: 8px;
@@ -1689,29 +1613,26 @@ input {
 
 
 .makeup-UNS {
-  margin-right: 3px;
-  width: calc(100% - 3px);
-  height: 522px;
+  width: 100%;
   display: flex;
   align-items: center;
+  gap: 10px;
   flex-shrink: 0;
 }
 .frame-2503-zra {
-  margin-right: 23px;
-  width: 788px;
-  height: 100%;
+  flex: 50%;
+  height: 60vh;
   position: relative;
   overflow: hidden;
   background-color: #fef2f2;
   border-radius: 20px;
-  flex-shrink: 0;
 }
 .group-40055-wG2 {
-  width: 173px;
-  height: 173px;
+  width: 150px;
+  height: 150px;
   position: absolute;
-  left: 602px;
-  top: 325px;
+  right: 2%;
+  bottom: 5%;
   object-fit: contain;
   vertical-align: top;
 }
@@ -1725,11 +1646,11 @@ input {
   vertical-align: top;
 }
 .group-40056-a46 {
-  width: 117px;
-  height: 117px;
+  width: 70px;
+  height: 70px;
   position: absolute;
-  left: 569px;
-  top: 226px;
+  right: 2%;
+  bottom: 42%;
   object-fit: contain;
   vertical-align: top;
 }
@@ -1747,24 +1668,23 @@ input {
   white-space: nowrap;
 }
 .mykaleidoscope-ru-p-professionalnaya-kosmetika-kristina-pinter-6-1-2gn {
-  width: 505px;
-  height: 497px;
+  width: 390px;
+  height: 390px;
   position: relative;
-  left: 141px;
-  top: 25px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  bottom: -16%;
   background-size: 100% 101.507%;
   background-position: 0 -23px;
   background-image: url('REPLACE_IMAGE:617f31c1bff8eba0859ea9271812fb9d6443c0d1');
 }
 .frame-2504-2aJ {
-  width: 788px;
-  height: 100%;
+  flex: 50%;
+  height: 60vh;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.0799999982);
   background-color: #f7fee7;
   border-radius: 20px;
-  flex-shrink: 0;
 }
 .text-BCJ {
   width: 145px;
@@ -1783,8 +1703,8 @@ input {
   width: 323px;
   height: 299px;
   position: absolute;
-  left: 488px;
-  top: 33px;
+  right: 0;
+  top: 0;
   object-fit: contain;
   vertical-align: top;
 }
@@ -1817,64 +1737,61 @@ input {
   vertical-align: top;
 }
 .modal-8fG {
+  height: 45vh;
   box-sizing: border-box;
-  padding: 60px 160px;
-  width: 1920px;
-  height: 448px;
-  position: absolute;
-  left: 0;
-  top: 2748px;
+  width: 100%;
   display: flex;
   align-items: center;
-  background-color: #edfbfb;
+  gap: 10px;
 }
 .frame-2529-drv {
-  margin-right: 20px;
+  flex: 50%;
+  position: relative;
   box-sizing: border-box;
-  padding: 40px;
-  height: 100%;
+  padding: 25px;
+  height: 37vh;
   display: flex;
   align-items: center;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.0799999982);
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.0799999982);
   background-color: #ffffff;
   border-radius: 20px;
-  flex-shrink: 0;
+  gap: 10px;
 }
 .place-your-screen-here-1-njp {
-  margin: 0px 20px 24px 0px;
-  width: 108px;
-  height: 224px;
+  height: 24vh;
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
 }
 .frame-2653-WQv {
+  width: 80%;
   height: 100%;
-  align-items: flex-end;
   display: flex;
+  align-items: center;
   flex-direction: column;
   flex-shrink: 0;
 }
 .frame-2655-foc {
-  margin: 0px 2px 40px 0px;
-  align-items: center;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex-shrink: 0;
 }
 .text-bSN {
-  margin-bottom: 20px;
-  max-width: 580px;
-  font-size: 30px;
+  width: 85%;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.2;
   color: #111827;
+  word-wrap: break-word;
   font-family: PT Root UI, 'Source Sans Pro';
   flex-shrink: 0;
 }
 .text-jYa {
-  max-width: 580px;
-  font-size: 18px;
+  width: 85%;
+  word-wrap: break-word;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.3333333333;
   color: #111827;
@@ -1883,19 +1800,17 @@ input {
 }
 .button-Um4 {
   box-sizing: border-box;
-  padding: 11px 0px 11px 16px;
-  width: 218px;
-  overflow: hidden;
-  position: relative;
+  padding: 11px 16px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.375;
   color: #ffffff;
   font-family: PT Root UI, 'Source Sans Pro';
-  white-space: nowrap;
   background-color: #14abb5;
   border-radius: 38px;
-  flex-shrink: 0;
   text-decoration: none;
 }
 .button-Um4:hover {
@@ -2031,18 +1946,14 @@ input {
 
 
 .in-basket{
-  /* margin: 0rem 1rem 1rem 0rem; */
   background-image: url('../image/basket/basket.png');
-  background-size: 4rem 4rem;
-  position: inherit;
-  margin-bottom: -4rem;
-  margin-right: -15.9rem;
-  width: 4rem;
-  height: 4rem;
-  object-fit: contain;
-  vertical-align: top;
+  background-size: 100%;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 5%;
+  right: 5%;
   border-radius: 0.8rem;
-  flex-shrink: 0;
   z-index: 1;
 }
 
@@ -2082,4 +1993,267 @@ input {
   background-size: 4rem 4rem;
 }
 
+.frame_4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
 
+.frame-for-citat {
+  position: absolute;
+  max-width: 150px;
+  position: absolute;
+  right: 3%;
+  top: 8%;
+}
+
+@media (max-width: 1030px) {
+  .group-40072-mfL {
+    left: 46%;
+    top: 55%;
+  }
+
+  .text-bSN {
+    font-size: 24px;
+  }
+
+  .text-jYa {
+    font-size: 14px;
+  }
+
+  .button-Um4 {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .button-Ear {
+    padding: 12px 12px;
+    font-size: 16px;
+  }
+
+  .makeup-UNS {
+    flex-direction: column;
+  }
+
+  .frame-2503-zra, .frame-2504-2aJ {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .frame-left, .frame-right {
+    height: 45vh;
+  }
+
+  .frame-top, .frame-bottom {
+    height: 22.5vh;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 826px) {
+  .text-46i {
+    font-size: 22px;
+  }
+
+  .text-jCr {
+    font-size: 18px;
+  }
+
+  .img2156-1-4F8 {
+    right: 3%;
+    height: 80%;
+  }
+
+  .ellipse-90-Wcv {
+    width: 60px;
+    height: 60px;
+  }
+
+  .group-40072-mfL {
+    left: 49%;
+    top: 66%;
+  }
+
+  .text-dxS {
+    font-size: 14px;
+    top: 15px;
+  }
+
+  .text-kXG {
+    font-size: 14px;
+  }
+
+  .frame-2669-XsU {
+    top: 27%;
+  }
+
+  .tab-vaA {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .button-Ear {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .modal-8fG {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 670px) {
+  .mobile {
+    display: none;
+  }
+
+  .frame-2669-XsU {
+    top: 6%;
+  }
+
+  .img2156-1-4F8 {
+    right: 28%;
+    height: 65%;
+  }
+
+  .text-46i {
+    font-size: 20px;
+
+  }
+
+  .frame-2669-XsU {
+    width: 100%;
+  }
+
+  .group-40072-mfL {
+    left: 20%;
+    top: 73%;
+  }
+
+  .mykaleidoscope-ru-p-professionalnaya-kosmetika-kristina-pinter-6-1-2gn {
+    width: 250px;
+    height: 250px;
+    transform: translate(-50%, 10%);
+  }
+}
+
+@media (max-width: 600px) {
+  .frame {
+    flex: 80%;
+  }
+
+  .text-jZY {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 511px) {
+  .text-jCr {
+    font-size: 15px;
+  }
+
+  .img2156-1-4F8 {
+    right: 18%;
+  }
+
+  .auto-group-vzfl-FwC {
+    flex-direction: column;
+    height: 95vh;
+  }
+
+ .frame-box, .frame-top, .frame-bottom, .frame-left, .frame-right {
+    flex-direction: column;
+    width: 100%;
+    height: 30vh;
+    flex: none;
+  }
+}
+
+@media (max-width: 474px) {
+  .text-bSN {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .text-jYa {
+    width: 90%;
+    font-size: 12px;
+  }
+  .text-jZY {
+    font-size: 22px;
+  }
+
+  .makeup-UNS {
+    height: 50vh;
+  }
+
+  .mykaleidoscope-ru-p-professionalnaya-kosmetika-kristina-pinter-6-1-2gn {
+    transform: translate(-50%, -10%);
+  }
+}
+
+@media (max-width: 409px) {
+  .frame-2669-XsU {
+    left: 11%;
+  }
+
+  .img2156-1-4F8 {
+    right: 12%;
+  }
+
+  .group-40072-mfL {
+    left: 5%;
+  }
+
+  .button-Um4 {
+    font-size: 12px;
+    padding: 5px 7px;
+  }
+
+  .modal-8fG {
+    height: 64vh;
+  }
+
+  .place-your-screen-here-1-njp {
+    height: 18vh;
+  }
+
+  .frame-2529-drv {
+    padding: 20px;
+  }
+
+  .text-jZY {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 358px) {
+  .img2156-1-4F8 {
+    right: 3%;
+    height: 60%;
+  }
+  .frame-2669-XsU {
+    left: 6%;
+  }
+
+  .text-46i {
+    width: 93%;
+  }
+
+  .text-bSN {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .modal-8fG {
+    height: 72vh;
+  }
+}
